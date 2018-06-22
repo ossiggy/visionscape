@@ -2,7 +2,6 @@
   font-family: 'Nanum Gothic', sans-serif; 
   color: white;
   background-color: darkgreen;
-  position: fixed;
   top: 0;
   width: 100%;
   height: 75px;
@@ -32,11 +31,4 @@
 
 .logo{
   height: 125px;
-}
-
-.coming-soon{
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
