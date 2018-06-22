@@ -1,0 +1,42 @@
+.header{
+  font-family: 'Nanum Gothic', sans-serif; 
+  color: white;
+  background-color: darkgreen;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+}
+
+.menu-button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.menu-button:hover{
+  cursor: pointer;
+}
+
+.logo-container{
+  display: inline-block;
+  background-color: beige;
+  border-radius: 100px;
+  border: 4px solid darkgreen;
+  padding: 10px;
+}
+
+.logo{
+  height: 125px;
+}
+
+.coming-soon{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

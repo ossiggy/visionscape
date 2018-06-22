@@ -1,0 +1,19 @@
+.footer{
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-title{
+  font-size: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+a{
+  color: blue;
+}
+
+.instagram{
+  color: #B600F5;
+}

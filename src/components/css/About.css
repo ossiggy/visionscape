@@ -1,0 +1,13 @@
+.about{
+  padding-top: 150px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.about-title, .about h2{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+ul{
+  list-style: none;
+}
