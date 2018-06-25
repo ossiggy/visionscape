@@ -12,15 +12,19 @@ export default function About(props){
           need. Our process utilizes 3D design software allowing you to see 
           the layout on your property before any work begins.  This results in
           superior customer satisfaction and comfort knowing that the vision you
-          have for your yard is being applied correctly.
+          have for your yard is being applied correctly. We work with both homeowners 
+          and landscape contractors to bring their visions to life! There are endless 
+          possibilities to create to perfect landscape design, and it is all possible 
+          with VisionScape Design.
         </p>
         <h2 className="services col-12">Services offered</h2>
         <ul className="info-list col-12">
-          <li>3D Rendering</li>
+          <li>3D & 2D Rendering</li>
           <li>Deck Design</li>
-          <li>Drafting</li>
+          <li>Outdoor Kitchen Design</li>
           <li>Drought Tolerant Landscaping</li>
-          <li>Garden Design</li>
+          <li>Native Plant Design</li>
+          <li>Plant Selections & Layouts</li>
           <li>Landscape Design</li>
           <li>Landscape Plans</li>
           <li>Patio Design</li>
