@@ -33,16 +33,17 @@ export default function About(props){
         </ul>
         <h2 className="areas-serviced col-12">Areas Serviced</h2>
         <p className="areas-p">
-        Airmont, Allendale, Bear Mountain, Bloomingdale, 
-        Chestnut Ridge, Clifton, Franklin Lakes, Greenwood Lake, 
-        Haledon, Haskell, Hawthorne, Hewitt, Ho-Ho-Kus, 
-        Kaser, Kinnelon, Mahwah, Midland Park, Monsey, Montebello, 
-        Mount Ivy, Newfoundland, Oakland, Paterson, Pompton Lakes, 
-        Ramsey, Ridgewood, Ringwood, Riverdale, Saddle River, 
-        Sloatsburg, Southfields, Sterling Forest, Suffern, Tallman, 
-        Totowa, Township Of Washington, Tuxedo Park, Upper Saddle River, 
-        Viola, Waldwick, Wanaque, Warwick, Wayne, Wesley Hills, West Milford, 
-        West Nyack, Westwood, Woodcliff Lake, Wyckoff</p>
+          Airmont, Allendale, Bear Mountain, Bloomingdale, 
+          Chestnut Ridge, Clifton, Franklin Lakes, Greenwood Lake, 
+          Haledon, Haskell, Hawthorne, Hewitt, Ho-Ho-Kus, 
+          Kaser, Kinnelon, Mahwah, Midland Park, Monsey, Montebello, 
+          Mount Ivy, Newfoundland, Oakland, Paterson, Pompton Lakes, 
+          Ramsey, Ridgewood, Ringwood, Riverdale, Saddle River, 
+          Sloatsburg, Southfields, Sterling Forest, Suffern, Tallman, 
+          Totowa, Township Of Washington, Tuxedo Park, Upper Saddle River, 
+          Viola, Waldwick, Wanaque, Warwick, Wayne, Wesley Hills, West Milford, 
+          West Nyack, Westwood, Woodcliff Lake, Wyckoff
+        </p>
         <h2 className="contact-us col-12">Contact Us</h2>
         <ul className="contact-list col-12">
           <li>Phone: 201-887-1594</li>

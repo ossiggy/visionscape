@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {ToastContainer} from 'react-toastify';
 import Header from './Header';
+import Carousel from './Carousel';
 import About from './About';
 import Footer from './Footer';
 import 'react-toastify/dist/ReactToastify.css';
@@ -19,6 +20,7 @@ class App extends Component {
           rtl={false}
           draggablePercent = {80}
         />
+        <Carousel />
         <About />
         <Footer />
       </div>
