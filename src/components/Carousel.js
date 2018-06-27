@@ -6,8 +6,8 @@ import './css/Carousel.css';
 export default class picCarousel extends React.Component {
   render(){
     return (
-        <Carousel 
-        className="carousel-container" 
+      <div className="carousel-container">
+        <Carousel
         showArrows = {true}
         infiniteLoop = {true}
         autoPlay = {true}
@@ -55,6 +55,7 @@ export default class picCarousel extends React.Component {
               <img src={require("./assets/Wendelaar.jpg")} alt="Wendelaar"/>
             </div>
         </Carousel>
+      </div>
     );
   }
 }
