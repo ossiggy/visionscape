@@ -28,10 +28,7 @@ export default class picCarousel extends React.Component {
               <img src={require("./assets/CLCGlenridge2.jpg")} alt="glenridge2"/>
             </div>
             <div>
-              <img src={require("./assets/GreenwoodLake1.jpg")} alt="GreenwoodLake1"/>
-            </div>
-            <div>
-              <img src={require("./assets/GreenwoodLake2.jpg")} alt="GreenwoodLake2"/>
+              <img src={require("./assets/GreenWood.jpg")} alt="GreenwoodLake"/>
             </div>
             <div>
               <img src={require("./assets/Pereni1.jpg")} alt="Pereni1"/>
