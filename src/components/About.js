@@ -46,7 +46,6 @@ export default function About(props){
         </p>
         <h2 className="contact-us col-12">Contact Us</h2>
         <ul className="contact-list col-12">
-          <li>Phone: 201-887-1594</li>
           <li>Email: <a href="mailto:visionscapeco@gmail.com" target="_blank" rel="noopener noreferrer">visionscapeco@gmail.com</a></li>
         </ul>
       </div>
