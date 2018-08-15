@@ -14,7 +14,7 @@ export default function About(props){
           superior customer satisfaction and comfort knowing that the vision you
           have for your yard is being applied correctly. We work with both homeowners 
           and landscape contractors to bring their visions to life! There are endless 
-          possibilities to create to perfect landscape design, and it is all possible 
+          possibilities to create the perfect landscape design, and it is all possible 
           with VisionScape Design.
         </p>
         <h2 className="services col-12">Services offered</h2>
