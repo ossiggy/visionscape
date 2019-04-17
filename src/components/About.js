@@ -1,13 +1,16 @@
 import React from 'react';
+import {Jumbotron} from 'reactstrap';
+
 import './css/About.css';
+
+const FontAwesome = require('react-fontawesome');
 
 export default function About(props){
   return(
-    <div className="about col-12">
-      <h1 className="about-title col-12">About Visionscape</h1>
-      <div className="about-text-container col-6">
-        <h2 className="process">Our Process</h2>
-        <p className="about-p1 col-12">
+    <div className='col-12' id='lander'>
+      <Jumbotron className="jumbo-top">
+      <h1 className="jumbo-title">Our Process</h1>        
+      <p className="display-5">
           We offer a wide range of services custom tailored to fit your every
           need. Our process utilizes 3D design software allowing you to see 
           the layout on your property before any work begins.  This results in
@@ -17,8 +20,25 @@ export default function About(props){
           possibilities to create the perfect landscape design, and it is all possible 
           with VisionScape Design.
         </p>
-        <h2 className="services col-12">Services offered</h2>
-        <ul className="info-list col-12">
+      </Jumbotron>
+      <Jumbotron className="jumbo-middle">
+        <h1 className="jumbo-title">Areas Serviced</h1>
+        <p className="display-5">
+          Airmont, Allendale, Bear Mountain, Bloomingdale, 
+          Chestnut Ridge, Clifton, Franklin Lakes, Greenwood Lake, 
+          Haledon, Haskell, Hawthorne, Hewitt, Ho-Ho-Kus, 
+          Kaser, Kinnelon, Mahwah, Midland Park, Monsey, Montebello, 
+          Mount Ivy, Newfoundland, Oakland, Paterson, Pompton Lakes, 
+          Ramsey, Ridgewood, Ringwood, Riverdale, Saddle River, 
+          Sloatsburg, Southfields, Sterling Forest, Suffern, Tallman, 
+          Totowa, Township Of Washington, Tuxedo Park, Upper Saddle River, 
+          Viola, Waldwick, Wanaque, Warwick, Wayne, Wesley Hills, West Milford, 
+          West Nyack, Westwood, Woodcliff Lake, Wyckoff
+        </p>
+      </Jumbotron>
+      <Jumbotron className="jumbo-bottom">
+        <h1 className="jumbo-title">Services offered</h1>
+        <ul className="display-5">
           <li>3D & 2D Rendering</li>
           <li>Deck Design</li>
           <li>Outdoor Kitchen Design</li>
@@ -31,24 +51,13 @@ export default function About(props){
           <li>Site Planning</li>
           <li>Swimming Pool Design</li>
         </ul>
-        <h2 className="areas-serviced col-12">Areas Serviced</h2>
-        <p className="areas-p">
-          Airmont, Allendale, Bear Mountain, Bloomingdale, 
-          Chestnut Ridge, Clifton, Franklin Lakes, Greenwood Lake, 
-          Haledon, Haskell, Hawthorne, Hewitt, Ho-Ho-Kus, 
-          Kaser, Kinnelon, Mahwah, Midland Park, Monsey, Montebello, 
-          Mount Ivy, Newfoundland, Oakland, Paterson, Pompton Lakes, 
-          Ramsey, Ridgewood, Ringwood, Riverdale, Saddle River, 
-          Sloatsburg, Southfields, Sterling Forest, Suffern, Tallman, 
-          Totowa, Township Of Washington, Tuxedo Park, Upper Saddle River, 
-          Viola, Waldwick, Wanaque, Warwick, Wayne, Wesley Hills, West Milford, 
-          West Nyack, Westwood, Woodcliff Lake, Wyckoff
-        </p>
-        <h2 className="contact-us col-12">Contact Us</h2>
-        <ul className="contact-list col-12">
-          <li>Email: <a href="mailto:visionscapeco@gmail.com" target="_blank" rel="noopener noreferrer">visionscapeco@gmail.com</a></li>
+      </Jumbotron>
+      <Jumbotron className="jumbo-footer">
+        <h2 className="jumbo-title">Contact Us</h2>
+        <ul className="email">
+          <li><FontAwesome name="envelope" size="1x" className="envelope"/>: <a href="mailto:visionscapeco@gmail.com" target="_blank" rel="noopener noreferrer">visionscapeco@gmail.com</a></li>
         </ul>
+      </Jumbotron>
       </div>
-    </div>
   )
 }

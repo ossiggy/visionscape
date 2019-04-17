@@ -1,10 +1,66 @@
-.about{
-  font-family: 'Yantramanav', sans-serif;
+#lander{
+  background-image: url('../assets/scape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  padding: 0;
 }
 
-.about-title, .about h2{
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+.jumbo-title{
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 65px;
+}
+
+.jumbo-top{
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  margin-top: 2rem;
+  float:left;
+  width: 75%;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.jumbo-middle{
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  margin-top: 2rem;
+  width: 75%;
+  float: right;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.jumbo-bottom{
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  margin-top: 2rem;
+  width: 75%;
+  float: left;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.jumbo-footer{
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  margin-top: 2rem;
+  width: 75%;
+  float: right;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.envelope{
+  margin-right: 5px;
+}
+
+.email{
+  font-size: 25px;
+}
+
+@media screen and (max-width: 815px){
+  .jumbo-top, .jumbo-bottom{
+    width: 100%;
+  }
+
+  .jumbo-title{
+    font-size: 50px;
+  }
 }
 
 ul{

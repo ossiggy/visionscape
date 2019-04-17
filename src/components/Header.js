@@ -1,36 +1,65 @@
 import React from 'react';
 import {toast} from 'react-toastify';
 
+import {
+  Button,
+  ButtonDropdown, 
+  DropdownToggle, 
+  DropdownMenu, 
+  DropdownItem,
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
+} from 'reactstrap';
+
 import './css/Header.css';
+
+import image from './assets/logo.png';
 
 const FontAwesome = require('react-fontawesome');
 
-export default function Header(props){
+export default class Header extends React.Component {
+  constructor(props) {
+    super(props);
 
-  const message = "Full Site Coming Soon!";
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      menuOpen: false
+    };
+  }
+  
+  toggle() {
+    this.setState({
+      menuOpen: !this.state.menuOpen
+    });
+  }
 
-  return(
-    <div className="header">
-      <div className="logo-container">
-        <img className="logo" src={require('./assets/logo.png')} alt="logo"/>
-      </div>
-      <FontAwesome 
-        name='bars' 
-        size="3x" 
-        className="menu-button"
-        onClick={(event)=>{
-          event.preventDefault();
-          toast.info(message, {
-          position: "top-center",
-          autoClose: 3000,
-          pauseOnHover: false,
-          hideProgressBar: false,
-          closeOnClick: true,
-          draggable: false,
-          draggablePercent: 80
-          });
-        }} 
-        />
-    </div>
-  )
+  render(){
+    return(
+        <Navbar color='faded'>
+          <div className="logo-container">
+            <NavbarBrand href="/"><img alt="logo" src={image}/></NavbarBrand>
+          </div>
+          <Nav>
+            <NavItem>
+              <NavLink href="/about">
+                About
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink  href="/gallery">
+                Gallery
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink  href="/contact">
+                Contact
+              </NavLink>
+            </NavItem>
+        </Nav>
+        </Navbar>
+    )
+  }
 }

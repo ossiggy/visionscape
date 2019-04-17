@@ -2,12 +2,13 @@
   font-family: 'Yantramanav', sans-serif;
   text-align: center;
   padding-bottom: 15px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white
 }
 
 .footer-title{
   font-size: 20px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 a{
@@ -15,5 +16,9 @@ a{
 }
 
 .instagram{
-  color: #B600F5;
+  color: white;
+}
+
+.instagram:hover{
+  color: lightcoral;
 }
